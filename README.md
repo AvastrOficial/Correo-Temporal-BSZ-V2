@@ -1,4 +1,55 @@
-# Correo-Temporal-BSZ
+# 📬 Correo Temporal BSZ
+
+Este proyecto utiliza la [API de Mail.tm](https://docs.mail.tm/) para generar correos electrónicos temporales automáticamente desde el navegador, mostrar los mensajes recibidos, copiar el correo al portapapeles y mostrar la IP pública del usuario.
+
+---
+
+## 🚀 Características
+
+- Generación automática de correo temporal.
+- Copia directa del correo al portapapeles.
+- Lectura automática de mensajes recibidos.
+- Alerta visual si no llegan mensajes en 30 segundos.
+- Visualización de IP pública del usuario.
+
+---
+
+## 🔧 Tecnologías usadas
+
+- HTML + JavaScript
+- API REST de [Mail.tm](https://mail.tm/)
+- API pública [ipify.org](https://www.ipify.org/) para IP del cliente
+- Íconos de Font Awesome (`fa-envelope-circle-check`)
+
+---
+
+## 📂 Estructura general del código
+
+### Funciones principales
+
+- `obtenerDominio()`: Obtiene el dominio de correo disponible.
+- `crearCuenta(email, password)`: Registra un nuevo correo temporal.
+- `obtenerToken(email, password)`: Autentica el correo y devuelve el token de sesión.
+- `obtenerMensajes()`: Lista los mensajes recibidos.
+- `obtenerMensaje(id)`: Devuelve el contenido completo de un mensaje.
+- `copiarAlPortapapeles(texto)`: Copia texto al portapapeles con fallback.
+- `mostrarAlerta(mensaje)`: Muestra mensajes emergentes al usuario.
+- `mostrarIP()`: Muestra la IP pública del usuario.
+- `iniciar()`: Lógica principal que crea el correo, obtiene token y espera mensajes.
+- `generarNuevoCorreo()`: Reinicia el flujo para obtener un nuevo correo.
+
+---
+
+## 📋 Ejemplo de uso
+
+1. Al cargar la página se genera un correo automáticamente.
+2. El correo se copia al portapapeles.
+3. Se visualiza la IP pública.
+4. Se espera la llegada de mensajes.
+5. Si no hay mensajes en 30 segundos, se notifica al usuario.
+6. Se puede hacer clic en un botón para generar un nuevo correo.
+
+---
 
 ## ✅ Servicios que SÍ suelen aceptar correos temporales
 
@@ -30,7 +81,5 @@
 | Udemy              | Educación           | Generalmente permite.                                                              |
 | Khan Academy       | Educación           | Permite correos temporales.                                                        |
 | Duolingo           | Educación           | Permite registro con correos temporales.                                           |
-
-![image](https://github.com/user-attachments/assets/38b52eb8-6d22-436c-9044-8502616b70a5)
 
 ![image](https://github.com/user-attachments/assets/35d8a7c2-add8-4ef7-a876-d65aaa6d3ccb)
