@@ -1,0 +1,56 @@
+ <div class="container">
+  <!-- Panel izquierdo -->
+  <div class="sidebar">
+  <div class="logo" style="cursor:pointer;">
+  <a href="https://github.com/AvastrOficial/Correo-Temporal-BSZ-V2" target="_blank" style="color: inherit; text-decoration: none;">
+    <i class="fa-brands fa-github"></i> Github
+  </a>
+</div>
+ 
+
+  <div class="info">
+  <h4><i class="fa-solid fa-network-wired"></i> Tu IP :</h4>
+  <div class="info-box" id="ip-box">
+    Cargando IP...
+  </div>
+</div>
+
+
+    <div class="info">
+      <h4><i class="fa-solid fa-circle-question"></i> ¿Para qué sirve?</h4>
+      <div class="info-box">
+        Un correo temporal sirve para proteger tu privacidad al registrarte en sitios sin usar tu email real.
+      </div>
+    </div>
+  </div>
+
+  <!-- Panel derecho -->
+  <div class="main">
+    <h1><i class="fa-solid fa-envelope-open-text"></i> Correo Temporal BSZ</h1>
+
+<div class="correo" id="email">
+  <i class="fa-solid fa-envelope-circle-check"></i>
+  <span id="correoGenerado">Generando correo...</span>
+</div>
+
+
+    <div id="botones">
+      <button class="actualizar" onclick="cargarMensajes()">
+        <i class="fa-solid fa-arrows-rotate"></i> Actualizar buzón
+      </button>
+      <button class="generar" onclick="generarNuevoCorreo()">
+        <i class="fa-solid fa-circle-plus"></i> Generar nuevo
+      </button>
+      <button class="copiar" onclick="copiarCorreo()">
+        <i class="fa-solid fa-copy"></i> Copiar
+      </button>
+    </div>
+
+    <div id="mensajes">
+      <!-- Aquí se listan los mensajes recibidos -->
+    </div> 
+  </div>
+</>
+  <div id="alertaPop">
+    <i class="fa-solid fa-circle-info"></i> <span id="alertaTexto">¡Copiado!</span>
+  </div>
