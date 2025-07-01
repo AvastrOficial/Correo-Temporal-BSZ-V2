@@ -83,3 +83,4 @@ Este proyecto utiliza la [API de Mail.tm](https://docs.mail.tm/) para generar co
 | Duolingo           | Educación           | Permite registro con correos temporales.                                           |
 
 ![image](https://github.com/user-attachments/assets/35d8a7c2-add8-4ef7-a876-d65aaa6d3ccb)
+![image](https://github.com/user-attachments/assets/84079fb7-d041-4e7b-b45c-56711f755cac)
