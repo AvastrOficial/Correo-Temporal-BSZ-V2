@@ -1,4 +1,4 @@
-    const apiUrl = 'https://api.mail.tm';
+    const apiUrl = 'API PRIVADA BSZ';
   let token = '';
   let emailActual = '';
   let passwordGenerada = '';
