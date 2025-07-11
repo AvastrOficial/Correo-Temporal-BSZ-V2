@@ -17,7 +17,7 @@ Este proyecto utiliza la [API de Mail.tm](https://docs.mail.tm/) para generar co
 ## 🔧 Tecnologías usadas
 
 - HTML + JavaScript
-- API REST de [Mail.tm](https://mail.tm/)
+- API REST de [Mail.tm](Api Privada/)
 - API pública [ipify.org](https://www.ipify.org/) para IP del cliente
 - Íconos de Font Awesome (`fa-envelope-circle-check`)
 
