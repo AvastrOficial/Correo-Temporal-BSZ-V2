@@ -1,6 +1,6 @@
 # 📬 Correo Temporal BSZ
 
-Este proyecto utiliza la [API de Mail.tm](https://docs.mail.tm/) para generar correos electrónicos temporales automáticamente desde el navegador, mostrar los mensajes recibidos, copiar el correo al portapapeles y mostrar la IP pública del usuario.
+Este proyecto utiliza la API Privada para generar correos electrónicos temporales automáticamente desde el navegador, mostrar los mensajes recibidos, copiar el correo al portapapeles y mostrar la IP pública del usuario.
 
 ---
 
