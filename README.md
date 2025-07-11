@@ -17,7 +17,7 @@ Este proyecto utiliza la API Privada para generar correos electrónicos temporal
 ## 🔧 Tecnologías usadas
 
 - HTML + JavaScript
-- API REST de [Mail.tm](Api Privada/)
+- API REST de Api Privada
 - API pública [ipify.org](https://www.ipify.org/) para IP del cliente
 - Íconos de Font Awesome (`fa-envelope-circle-check`)
 
